@@ -1,0 +1,74 @@
+* {
+    box-sizing:border-box;
+}
+.apresentaçao {
+    color:black;
+    text-align: center;
+    font-style: oblique;
+    font-size:30px ;
+    font-family: 'Bebas Neue';
+}
+
+body {
+    background-color:rgb(66, 110, 100);
+    margin: 5px;
+    
+}
+
+.apresentaçao2 {
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    text-align: justify;
+    margin: 30px;
+
+}
+.exemplo {
+    border: 5px solid black; 
+    overflow: auto;
+    border-radius:10px ;
+    margin-left:30px;
+    font-family: 'Bebas Neue';
+    
+}
+.listas {
+    font-size:30px ;
+    font-family:'Bebas Neue' ;
+    color: rgb(255, 136, 0);
+}
+.login {
+    font-size: 30px;
+    color: black;
+    overflow: auto;
+    border-radius: 10px;
+    margin: 0px;
+    font-family: 'Bebas Neue';
+}
+.tabela {
+    width: 600px;
+    border:black solid;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+}
+
+td, th {
+    border:solid black;
+} 
+
+ thead {
+    background-color: cyan;
+}
+
+tbody {
+    background-color:darkblue;
+}
+th, td {
+    padding:10px ;
+    text-align: left;
+}
+tbody tr:hover {
+    background-color:rgb(131, 131, 189);
+}
+tbody td {
+    border-bottom:1px grey solid ;
+}
+    
